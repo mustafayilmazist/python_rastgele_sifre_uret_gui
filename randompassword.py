@@ -1,4 +1,7 @@
 # -*- conding: utf-8 -*-
+'''
+bu dosya python2.7 de yazılmıştır
+'''
 from Tkinter import *
 import random
 import string

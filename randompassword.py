@@ -2,7 +2,7 @@
 '''
 bu dosya python2.7 de yazılmıştır
 '''
-from Tkinter import *
+from tkinter import *
 import random
 import string
 myPencere = Tk()
@@ -13,10 +13,11 @@ E1 = Entry(myPencere, bd =1)
 E1.pack(side = RIGHT)
 def uret():
     basamak = E1.get()
+    basamak = int(basamak)
     myMetin = ""
-    for x in range(0, int(basamak) ):
+    for x in range(0,basamak):
         myMetin += random.choice(string.ascii_letters+string.digits)
-    print "uretilen sifre:::", myMetin
+    print("uretilen sifre:::", myMetin)
     L1.config(text=myMetin)
 def kaydet():
     E1.config(text="abah")

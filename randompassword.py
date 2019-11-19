@@ -1,6 +1,7 @@
 # -*- conding: utf-8 -*-
 '''
 bu dosya python2.7 de yazılmıştır
+mustafa yılmaz
 '''
 from tkinter import *
 import random
